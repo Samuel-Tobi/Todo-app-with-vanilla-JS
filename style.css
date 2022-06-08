@@ -94,7 +94,7 @@ div ul li {
   font-size: 20px;
   align-items: center;
   line-height: 5px;
-  /* flex: 5; */
+  flex: 5;
   display: flex;
 }
 
@@ -107,6 +107,12 @@ span {
 
 input.checkbox {
   margin-right: 2px;
+  display: inline;
   margin-left: 0;
   /* padding-right: 10px; */
+}
+
+p {
+  margin-right: 350px;
+  width: 200px;
 }
