@@ -9,6 +9,7 @@ function createTodo() {
   }
 
   let li = document.createElement("li");
+  li.classList.add("todos-list");
 
   let checkbox = document.createElement("input");
   checkbox.classList.add("checkbox");
